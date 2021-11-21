@@ -1,0 +1,9 @@
+maxSteer = 50.0
+maxTorque = 130.0
+topSpeed = 100.0
+gearNumber = 5
+gear0 = 3.0
+gear1 = 10.0
+gear2 = 22.0
+gear3 = 55.0
+gear4 = 80.0

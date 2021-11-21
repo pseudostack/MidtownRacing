@@ -1,0 +1,32 @@
+﻿VehicleData : {
+  maxPower = 70.0f
+  lowSpeedAngle = 15.0f
+  highSpeedAngle = 5.0f
+  steerCrossoverSpeed = 45.0f
+  rigidBodyDrag = 0.025f
+  rigidBodyAngularDrag = 0.9f
+  rigidBodyMass = 1468.0f
+  COMHeight = -0.28f
+  COMZPos = 0.0f
+  minRPM = 675.0f
+  maxRPM = 8000.0f
+  springForce = 20000
+  springDamper = 1000
+  damperBump = 0
+  damperRebound = 700
+  springTravel = 0.2f
+  gearRatios = (
+    9.5f,
+    5.51f,
+    4.21f,
+    3.21f,
+    2.41f,
+  )
+
+  turbo = false
+  maxDamage = 6500.0f
+  differentialType = 3
+  abs = 1.0f
+  tcs = 0.0f
+  stabilityControl = 1.00f
+}

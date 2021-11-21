@@ -1,0 +1,6 @@
+baseName = "gtr1Shadow"
+vehicleName = "Panoz GTR-1 Race Car"
+colors = ["Secret Shadow"]
+carLocked = false
+showcaseDescription = "Great accelaration, light weight, and an amazing top speed, but not designed for off-road use"
+uiScale = 1.25

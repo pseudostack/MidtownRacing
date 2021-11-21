@@ -1,0 +1,6 @@
+baseName = "vpbug"
+vehicleName = "Volkswagen New Beetle"
+colors = ["Yellow", "Blue", "Silver", "Red", "Green", "Black", "Herbie"]
+carLocked = false
+showcaseDescription = "The nimble New Beetle ducks through narrow shortcuts and zips through heavy traffic."
+uiScale = 1

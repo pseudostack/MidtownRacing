@@ -1,0 +1,261 @@
+# Blender MTL File: 'GTR-1.blend'
+# Material Count: 24
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl driver
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl fxltglow
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd fxltglowwhite.png
+map_Ke fxltglowwhite.png
+map_d fxltglowwhite.png
+
+newmtl generic_carbon_flat_bodywork_carbon_cpit__Bodywork_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd common_carbon05_black_diff.png
+
+newmtl glows_rear
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd gtr1_glows_rear.png
+map_Ke gtr1_glows_rear.png
+map_d gtr1_glows_rear.png
+
+newmtl livery
+Ns 506.250000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd gtr1_Racing-Decals.png
+
+newmtl panoz_esp_gtr1_badges_vehicles_basic_translucent__VehicleBasic_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd gtr1_badges.png
+map_d gtr1_badges.png
+
+newmtl panoz_esp_gtr1_carbon_ext_matte_bodywork_carbon__Bodywork_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd common_carbon05_black_diff.png
+
+newmtl panoz_esp_gtr1_carbon_ext_yellow_bodywork_carbon__Bodywork_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd common_carbon05_yellow2_diff.png
+
+newmtl panoz_esp_gtr1_disc_Wheels
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd gtr1_disc.png
+
+newmtl panoz_esp_gtr1_interior_vehicles_basic__VehicleBasic_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl panoz_esp_gtr1_lights_vehicles_basic__VehicleBasic_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd gtr1_lights.png
+
+newmtl panoz_esp_gtr1_misc_skin_vehicles_basic_skinned__VehicleBasic_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd gtr1_misc.png
+
+newmtl panoz_esp_gtr1_misc_vehicles_basic__VehicleBasic_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd gtr1_misc.png
+
+newmtl panoz_esp_gtr1_paint_alu_bodywork2__Bodywork_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl panoz_esp_gtr1_paint_black_bodywork2__Bodywork_
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl panoz_esp_gtr1_paint_carbon_bodywork_carbon__Bodywork_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd common_carbon05_black_diff.png
+
+newmtl panoz_esp_gtr1_paint_plastic_bodywork2__Bodywork_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl panoz_esp_gtr1_taillight_vehicles_basic_translucent__VehicleBas
+Ns 900.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd gtr1_lights.png
+
+newmtl panoz_esp_gtr1_tire_Tyres
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.615178 0.615178 0.615178
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd common_tire_diff.png
+
+newmtl panoz_esp_gtr1_tread_Tyres
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd tread_slick1_diff.png
+
+newmtl panoz_esp_gtr1_wheel_Wheels
+Ns 506.250000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd gtr1_wheel.png
+
+newmtl panoz_esp_gtr1_windows_2_Glass
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.057805 0.074214 0.063010
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.600000
+illum 9
+
+newmtl panoz_esp_gtr1_windows_Glass
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.057805 0.074214 0.063010
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.600000
+illum 9

@@ -1,0 +1,6 @@
+baseName = "gtr1"
+vehicleName = "Panoz GTR-1 Race Car"
+colors = ["Racing-Decals", "Purple", "Red", "Yellow", "Visteon", "Motorola", "Toad", "Blue", "Black"]
+carLocked = false
+showcaseDescription = "Great accelaration, light weight, and an amazing top speed, but not designed for off-road use"
+uiScale = 1.25

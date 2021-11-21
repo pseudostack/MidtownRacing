@@ -1,0 +1,6 @@
+baseName = "vpmustang99"
+vehicleName = "Ford Mustang GT"
+colors = ["Yellow", "Green", "White", "Red", "Silver", "Blue", "Black", "Crimson", "Sport"]
+carLocked = false
+showcaseDescription = "The Ford Mustang GT packs a potent punch with its powerful V8 engine."
+uiScale = 1
