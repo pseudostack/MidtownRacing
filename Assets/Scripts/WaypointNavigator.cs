@@ -10,17 +10,13 @@ public class WaypointNavigator : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("Awaken...");
         controller = GetComponent<Traffic>();
     }
 
 
     void Start()
     {
-        Debug.Log("setting Destination...");
         controller.SetDestination(currentWaypoint.GetPosition());
-
-        Debug.Log("destination here is: " + currentWaypoint.GetPosition());
     }
 
     void Update()
@@ -43,8 +39,6 @@ public class WaypointNavigator : MonoBehaviour
             {
              currentWaypoint = currentWaypoint.nextWaypoint;   
             }
-
-            //Debug.Log("current waypoint: " + currentWaypoint);
             currentWaypoint = currentWaypoint.nextWaypoint;
             controller.SetDestination(currentWaypoint.GetPosition());
         }

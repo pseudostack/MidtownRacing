@@ -58,9 +58,14 @@ public class SpawnTraffic : MonoBehaviour
     }
 
 
+	public List<GameObject> getTrafficVehicles()
+	{
+		return spawned_traffic;
+	}
+
 	void spawnTraffic(int num_wps)
 	{
-	
+
 			//iterate through all of our spawn points and spawn random vehicles
 		for (int i = 0; i<num_wps; i++)
 		{
@@ -82,30 +87,32 @@ public class SpawnTraffic : MonoBehaviour
 			
 			//create a duplicate object of traffic
 			spawned_traffic[num_spawned] = GameObject.Instantiate(traffic[rndTraffic]);
+			
+
 
 						//set its position to our spawn point
 			spawned_traffic[num_spawned].transform.position = spawnpos;
 			spawned_traffic[num_spawned].transform.rotation = spawndir;
 			
-			Debug.Log(transform.GetChild(i));
-			Debug.Log(transform.GetChild(i).GetComponent<Waypoint>());
+
+
 
 			//set its waypoints
 			spawned_traffic[num_spawned].GetComponent<WaypointNavigator>().currentWaypoint = transform.GetChild(i).GetComponent<Waypoint>();
 	
 			//show the traffic vehicle
 			spawned_traffic[num_spawned].SetActive(true);
+
+			//set a tag
+			spawned_traffic[num_spawned].tag = "traffic";
+
+
+			//add this script as a component
+			spawned_traffic[num_spawned].AddComponent<avoidTrafficCollision>();
 		
 			//increment number of spawnned vewhicles
 			num_spawned = num_spawned + 1;
-			
-			//Debug.Log("iterator: " + rndTraffic);
 			}
-
 		}
-	
-	
 	}
-	
-
 }
