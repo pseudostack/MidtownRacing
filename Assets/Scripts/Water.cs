@@ -12,16 +12,17 @@ public class Water : MonoBehaviour
     {
         other.GetComponentInParent<Rigidbody>().drag = 13;
    
-        StartCoroutine(Drown());
+        //StartCoroutine(Drown());
        
     }
-    IEnumerator Drown()
+    /*IEnumerator Drown()
     {
-        DrownText.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        //DrownText.SetActive(true);
+        //yield return new WaitForSeconds(3f);
        
-        SceneManager.LoadScene(2);
-        DrownText.SetActive(false);
+        //SceneManager.LoadScene(2);
+        //DrownText.SetActive(false);
     }
+    */
 }
 
