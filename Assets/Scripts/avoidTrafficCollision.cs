@@ -17,12 +17,16 @@ GameObject[] spawned_traffic;
     void Update()  {
         foreach(GameObject to in spawned_traffic)        {
 
-            if (this.transform.position == transform.position)
+            if (this.transform.position == to.transform.position)
             {
                 //skip
             }
             else
             {
+                if ( this.transform.rotation.y == to.transform.rotation.y)
+                {
+
+                }
                 float dist = Vector3.Distance(to.transform.position, transform.position);
                      if (dist < 30) {
                 this.GetComponent<Traffic>().movementSpeed = 0;
@@ -32,12 +36,6 @@ GameObject[] spawned_traffic;
             }
             }
 
-               // Debug.Log(this);
-               // Debug.Log(to);
-               // Debug.Log("-----");
-               // Debug.Log("Transform Position: " + transform.position + " Traffic position: " + to.transform.position + " Distance: " + dist);
-
-       
         }
     }
 }

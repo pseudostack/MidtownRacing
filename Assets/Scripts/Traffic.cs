@@ -31,14 +31,11 @@ movementSpeed = 10;
 rotationSpeed = 120;
 stopDistance = 1;
 
-    }
-
+    }   
+ 
     // Update is called once per frame
     void Update()
     {
-
-
-
 		if(transform.position != destination)
 		{
 			Vector3 destinationDirection = destination - transform.position;
@@ -53,13 +50,32 @@ stopDistance = 1;
 				transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 				transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
 			}
-			
+		
 			else{
 				reachedDestination = true;
 			}
 		}
     }
-	
+
+    void FixedUpdate()
+    {
+
+		//collision detection
+        Vector3 fwd = transform.TransformDirection(Vector3.forward);
+
+		//if object in front within 10 units
+        if (Physics.Raycast(transform.position, fwd, 5))
+		{
+			//stop the vehicle
+			movementSpeed = 0;
+		}
+
+		else
+		{
+			//otherwise continue moving
+			movementSpeed = 10;
+		}
+    }
 
 	public void SetDestination(Vector3 destination)
 	{
