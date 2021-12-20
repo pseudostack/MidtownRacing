@@ -14,9 +14,7 @@ public class WaypointManagerWindow : EditorWindow
 
     public Transform waypointRoot;
 
-
     public int spawnable;
-
 
     public string spawnwp;
     public string wp;
@@ -45,12 +43,10 @@ public class WaypointManagerWindow : EditorWindow
 
         obj.ApplyModifiedProperties();
 
-   }
+   } 
 
-
-   void DrawButtons()
-   {
-
+      void DrawButtons()
+   { 
      spawnwp ="Waypoint_SP ";
      wp = "Waypoint ";
 
@@ -69,6 +65,8 @@ public class WaypointManagerWindow : EditorWindow
                CreateBranch();
            }
 
+GUILayout.Space(20);
+
                     if(GUILayout.Button("Create Spawnable Waypoint After"))
            {
                spawnable = 1;
@@ -81,12 +79,14 @@ public class WaypointManagerWindow : EditorWindow
                CreateWaypointAfter(spawnable);
            }
 
+GUILayout.Space(20);
 
              if(GUILayout.Button("Remove Waypoint"))
            {
                RemoveWaypoint();
            }
 
+GUILayout.Space(20);
            
        if(GUILayout.Button("Create Waypoint"))
        {
@@ -94,6 +94,7 @@ public class WaypointManagerWindow : EditorWindow
            CreateWaypoint(spawnable);
        }
 
+GUILayout.Space(20);
 
                     if(GUILayout.Button("Create Spawnable Waypoint Before "))
            {
@@ -108,11 +109,15 @@ public class WaypointManagerWindow : EditorWindow
                 CreateWaypointBefore(spawnable);
            }
 
+           GUILayout.Space(20);
+           GUILayout.Space(20);
+
             if(GUILayout.Button("Rename All Waypoints to Waypoint_SP"))
            {
                RenameWaypoints();
            }
 
+GUILayout.Space(20);
             if(GUILayout.Button("Rename Selected Waypoints_SP to Waypoint"))
            {
                RenameSPWaypoints();
