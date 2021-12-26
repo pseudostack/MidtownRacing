@@ -22,7 +22,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             skidParticles = transform.root.GetComponentInChildren<ParticleSystem>();
 
-            if (skidParticles == null)
+            if(skidParticles == null)
             {
                 Debug.LogWarning(" no particle system found on car to generate smoke particles", gameObject);
             }
@@ -35,7 +35,7 @@ namespace UnityStandardAssets.Vehicles.Car
             m_AudioSource = GetComponent<AudioSource>();
             PlayingAudio = false;
 
-            if (skidTrailsDetachedParent == null)
+           if (skidTrailsDetachedParent == null)
             {
                 skidTrailsDetachedParent = new GameObject("Skid Trails - Detached").transform;
             }

@@ -52,6 +52,9 @@ public class WaypointEditor
         {
             foreach(Waypoint branch in waypoint.branches)
             {
+                
+                if (!Application.isPlaying) return;//ADDED NEW LINE TO FIX CONSOLE ERRORS
+
                 Gizmos.color = Color.blue;
                 Gizmos.DrawLine(waypoint.transform.position, branch.transform.position);
             }

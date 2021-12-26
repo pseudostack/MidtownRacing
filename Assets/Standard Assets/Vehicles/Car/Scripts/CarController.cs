@@ -22,7 +22,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private CarDriveType m_CarDriveType = CarDriveType.FourWheelDrive;
         [SerializeField] private WheelCollider[] m_WheelColliders = new WheelCollider[4];
         [SerializeField] private GameObject[] m_WheelMeshes = new GameObject[4];
-        [SerializeField] private WheelEffects[] m_WheelEffects = new WheelEffects[4];
+        //[SerializeField] private WheelEffects[] m_WheelEffects = new WheelEffects[4];
         [SerializeField] private Vector3 m_CentreOfMassOffset;
         [SerializeField] private float m_MaximumSteerAngle;
         [Range(0, 1)] [SerializeField] private float m_SteerHelper; // 0 is raw physics , 1 the car will grip in the direction it is facing
@@ -280,24 +280,24 @@ namespace UnityStandardAssets.Vehicles.Car
                 // is the tire slipping above the given threshhold
                 if (Mathf.Abs(wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs(wheelHit.sidewaysSlip) >= m_SlipLimit)
                 {
-                    m_WheelEffects[i].EmitTyreSmoke();
+                    //m_WheelEffects[i].EmitTyreSmoke();
 
                     // avoiding all four tires screeching at the same time
                     // if they do it can lead to some strange audio artefacts
-                    if (!AnySkidSoundPlaying())
+                    //if (!AnySkidSoundPlaying())
                     {
-                        m_WheelEffects[i].PlayAudio();
+                        //m_WheelEffects[i].PlayAudio();
                     }
                     continue;
                 }
 
                 // if it wasnt slipping stop all the audio
-                if (m_WheelEffects[i].PlayingAudio)
+                //if (m_WheelEffects[i].PlayingAudio)
                 {
-                    m_WheelEffects[i].StopAudio();
+                   // m_WheelEffects[i].StopAudio();
                 }
                 // end the trail generation
-                m_WheelEffects[i].EndSkidTrail();
+                //m_WheelEffects[i].EndSkidTrail();
             }
         }
 
@@ -357,7 +357,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             for (int i = 0; i < 4; i++)
             {
-                if (m_WheelEffects[i].PlayingAudio)
+                //if(m_WheelEffects[i].PlayingAudio)
                 {
                     return true;
                 }

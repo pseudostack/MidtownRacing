@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\Showfps.cs" />
     <Compile Include="Assets\Scripts\AdsManager.cs" />
     <Compile Include="Assets\Scripts\SetResolution.cs" />
+    <Compile Include="Assets\Scripts\CarMenuRotate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />

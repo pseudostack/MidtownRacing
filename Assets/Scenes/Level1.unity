@@ -10962,11 +10962,6 @@ MonoBehaviour:
   - {fileID: 899807278}
   - {fileID: 1951260942}
   - {fileID: 86455460}
-  m_WheelEffects:
-  - {fileID: 2091877576}
-  - {fileID: 2076410617}
-  - {fileID: 1960507134}
-  - {fileID: 63776955}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
   m_SteerHelper: 0.644
@@ -36248,7 +36243,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -64894,6 +64889,7 @@ MonoBehaviour:
   car3: {fileID: 1840707199}
   car4: {fileID: 2068162475}
   car5: {fileID: 183276314}
+  car6: {fileID: 0}
 --- !u!4 &1507524588
 Transform:
   m_ObjectHideFlags: 0
@@ -73636,11 +73632,6 @@ MonoBehaviour:
   - {fileID: 1494094325}
   - {fileID: 1153133620}
   - {fileID: 224805058}
-  m_WheelEffects:
-  - {fileID: 397143322}
-  - {fileID: 664628959}
-  - {fileID: 334805312}
-  - {fileID: 294989617}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 25
   m_SteerHelper: 0.644
@@ -80667,11 +80658,6 @@ MonoBehaviour:
   - {fileID: 1797838681}
   - {fileID: 686079904}
   - {fileID: 2146675551}
-  m_WheelEffects:
-  - {fileID: 48887551}
-  - {fileID: 262379208}
-  - {fileID: 846815740}
-  - {fileID: 1359483011}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
   m_SteerHelper: 0.644
@@ -81010,11 +80996,6 @@ MonoBehaviour:
   - {fileID: 309465042}
   - {fileID: 1202659721}
   - {fileID: 1519537335}
-  m_WheelEffects:
-  - {fileID: 56642361}
-  - {fileID: 1765716151}
-  - {fileID: 1062879476}
-  - {fileID: 1188845298}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
   m_SteerHelper: 0.644
@@ -87873,11 +87854,6 @@ MonoBehaviour:
   - {fileID: 1916452631}
   - {fileID: 1639865998}
   - {fileID: 649293385}
-  m_WheelEffects:
-  - {fileID: 183624815}
-  - {fileID: 1929643838}
-  - {fileID: 2096420000}
-  - {fileID: 1166969247}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 28
   m_SteerHelper: 0.644

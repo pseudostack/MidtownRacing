@@ -6,6 +6,8 @@ public class CarSelection : MonoBehaviour
     [SerializeField] private Button previousButton;
     [SerializeField] private Button nextButton;
 
+    [SerializeField] Text Infotext;
+
     public int currentCar;
 
     //public Slider SpeedSlider;
@@ -60,25 +62,36 @@ public class CarSelection : MonoBehaviour
     {
         if(currentCar == 0)
         {
-          
-            //SpeedSlider.value = 164;
-            //TorqueSlider.value = 4200;
-            //MassSlider.value = 2100;
-            //TopSpeed.text = "MaxSpeed: 180 KPH";
 
-            //Mass.text = "Mass: 1800 kg";
+            Infotext.text = "OLD TAXI";
 
         }
         if (currentCar == 1)
         {
-          
-            //SpeedSlider.value = 156;
-            //TorqueSlider.value = 2800;
-            //MassSlider.value = 1500;
 
-            //TopSpeed.text = "MaxSpeed: 156 KPH";
-            //Mass.text = "Mass: 1200 kg";
+            Infotext.text = "90's SPORTS";
         }
-        
+        if (currentCar == 2)
+        {
+
+            Infotext.text = "COMPACT CAR";
+
+        }
+        if (currentCar == 3)
+        {
+
+            Infotext.text = "90'S SEDAN";
+        }
+        if (currentCar == 4)
+        {
+
+            Infotext.text = "1999 GT";
+        }
+        if (currentCar == 5)
+        {
+
+            Infotext.text = "SUPER CAR";
+        }
+
     }
 }
