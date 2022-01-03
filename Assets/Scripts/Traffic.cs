@@ -7,7 +7,6 @@ public class Traffic : MonoBehaviour
 {
 	private Transform targetWaypoint;
 
-	
 	public bool reachedDestination = false;
 		
 
@@ -59,12 +58,11 @@ stopDistance = 1;
 
     void FixedUpdate()
     {
-
 		//collision detection
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
 		//if object in front within 10 units
-        if (Physics.Raycast(transform.position, fwd, 5))
+        if (Physics.Raycast(transform.position, fwd, 20))
 		{
 			//stop the vehicle
 			movementSpeed = 0;

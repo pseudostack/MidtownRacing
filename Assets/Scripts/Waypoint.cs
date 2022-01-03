@@ -12,6 +12,15 @@ public class Waypoint : MonoBehaviour
 	public float width = 2f;
 
 	public List<Waypoint> branches;
+
+	public bool isTrafficLight ;
+
+	public bool isStopSign;
+
+	// r is red
+	//y is yellow
+	//g is green
+	public char trafficLightStatus = 'g';
 	
 	
 [Range(0f,1f)]

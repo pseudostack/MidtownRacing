@@ -57,7 +57,6 @@ public class WaypointManagerWindow : EditorWindow
            CreateWaypoint(spawnable);
        }
 
-
        if (Selection.activeGameObject != null  && Selection.activeGameObject.GetComponent<Waypoint>())
        {
            if(GUILayout.Button("Add Branch Waypoint"))

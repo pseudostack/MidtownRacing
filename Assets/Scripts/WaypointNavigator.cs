@@ -24,6 +24,14 @@ public class WaypointNavigator : MonoBehaviour
         if (controller.reachedDestination)
         {
 
+            if (currentWaypoint.trafficLightStatus == 'r')
+            {
+                controller.movementSpeed = 0;
+            }
+
+            else
+            {
+                controller.movementSpeed = 10;
             bool shouldBranch = false;
 
             if (currentWaypoint.branches != null && currentWaypoint.branches.Count >0)
@@ -41,6 +49,7 @@ public class WaypointNavigator : MonoBehaviour
             }
             currentWaypoint = currentWaypoint.nextWaypoint;
             controller.SetDestination(currentWaypoint.GetPosition());
+                }
         }
 
     }
